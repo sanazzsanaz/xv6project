@@ -203,7 +203,7 @@ void runcmd(struct cmd *cmd)
 int getcmd(char *buf, int nbuf)
 {
   //عوض کردن اسم شل با خط پایین
-  write(2, " Maryam Masoumi & Sanaz Aparooyz $", 37);
+  write(2, " Maryam Masoumi & Sanaz Aparviz $", 36);
   memset(buf, 0, nbuf);
   gets(buf, nbuf);
   if (buf[0] == 0) // EOF
